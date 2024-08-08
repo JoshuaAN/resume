@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723082256.12699 "/Users/joshuanichols/Documents/resume-1/main.tex" "main.pdf" "main" 1723082256.549 0
-  "/Users/joshuanichols/Documents/resume-1/main.tex" 1723082255.94322 7610 46bdfcfeaa81fc3182e29e7342a56d6d ""
+["pdflatex"] 1723149187.59666 "/Users/joshuanichols/Documents/resume/main.tex" "main.pdf" "main" 1723149188.00049 0
+  "/Users/joshuanichols/Documents/resume/main.tex" 1723149101.73819 7610 c7886cc608dcaceb9f79c47aebcb754e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,9 +85,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712114335.31348 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712114327 8221437 827557639bf1e8924ca7859184c5a8bb ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1723082256.51525 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
-  "main.out" 1723082256.51591 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "main.tex" 1723082255.94322 7610 46bdfcfeaa81fc3182e29e7342a56d6d ""
+  "main.aux" 1723149187.96795 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
+  "main.out" 1723149187.96861 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "main.tex" 1723149101.73819 7610 c7886cc608dcaceb9f79c47aebcb754e ""
   (generated)
   "main.aux"
   "main.log"

@@ -11,19 +11,8 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{fontawesome}
 \input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -95,7 +84,6 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING----------
@@ -105,10 +93,10 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\LARGE Joshua Nichols} \\ \vspace{1pt}
-    \small \href{mailto:x@x.com}{\underline{joshuani@andrew.cmu.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/joshuaanichols}} $|$
-    \href{https://github.com/...}{\underline{github.com/joshuaan}}
+    \textbf{\LARGE Joshua Nichols} \\ \vspace{3pt}
+    \small \href{mailto:joshuani@cmu.edu}{\faEnvelope~joshuani@cmu.edu} $|$ 
+    \href{https://github.com/joshuaan}{\faGithubSquare~joshuaan} $|$
+    \href{https://linkedin.com/in/joshuaanichols}{\faLinkedinSquare~joshuaanichols}
 \end{center}
 
 
@@ -117,7 +105,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Carnegie Mellon University}{Pittsburgh, PA}
-      {Bachelor of Science, Electrical and Computer Engineering, 3.53 GPA}{Aug. 2023 -- May 2027}
+      {Bachelor of Science, Electrical and Computer Engineering, 3.55/4.0 GPA}{Aug 2023 -- May 2027}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant coursework:} Principles of Real Analysis I, Algebraic Structures, Probability Theory, Great Theoretical Ideas in Computer Science, Computer Systems, Principles of Functional Programming.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -126,82 +117,68 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Carnegie Mellon University}{Pittsburgh, PA}
+      {Teaching Assistant}{Aug 2024 - Present}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Taught weekly recitations and labs to undergraduate students for Carnegie Mellon's C programming + Data Structures and Algorithms course.}
+        \resumeItem{Graded homework, programming assignments, and exams for correctness and style in C.}
+        \resumeItem{Collaborated with group of 40+ staff members to run course of over 400 students.}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {NASA Langley Research Center}{Hampton, VA}
+      {Computer Science Research Intern}{Jun 2024 - Aug 2024}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
+        \resumeItem{Implemented new data association methods for sensor fusion in OCaml and PVS, a NASA developed mathematical theorem prover, with graph theory algorithms and Kalman filters.}
+        \resumeItem{Developed work on proving robustness properties about Kalman filters and data association methods using real analysis in the PVS theorem prover.}
+        \resumeItem{Proved over 100 fundamental linear algebra theorems in NASA core library with the PVS theorem prover.} 
+      \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Robotic Exploration Lab - Carnegie Mellon University}{Pittsburgh, PA}
+      {Research Assistant}{Jan 2024 - Apr 2024}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+        \resumeItem{Rewrote numerical optimization solver in C++ to improve maintainability and development capabilities of codebase}
+        \resumeItem{Improved benchmark time of optimization solver by 20\% with low-level C++ techniques and algorithmic improvements.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {NASA Langley Research Center}{Hampton, VA}
+      {Software Engineer Intern}{Jun 2023 - Aug 2023}
+      \resumeItemListStart
+        \resumeItem{Implemented reinforcement learning methods with PyTorch for optimal control of robotic systems.}
+        \resumeItem{Improved size of numerical flight simulations by over 100x according to benchmarks through GPU parallelization and algorithmic improvements.}
+        \resumeItem{Created visualization tools for robotic system and flight simulations in Unity with C\#.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
-
 %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Numerical Optimization Solver - Sleipnir}{}
+      {\href{https://github.com/SleipnirGroup/Sleipnir}{https://github.com/SleipnirGroup/Sleipnir}}{}
+      \resumeItemListStart
+        \resumeItem{Founded open-source research project and numerical optimization solver, Sleipnir, written in C++.}
+        \resumeItem{Benchmarks show Sleipnir is over 2x faster than state-of-the-art research and industry solvers as a result of novel differentiable programming developments.}
+        \resumeItem{Sleipnir is used in production by over 5,000 users in FIRST Robotics Competition as part of motion planning app.}
+        \resumeItem{300 active users and contributors in development discord server.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Awards}
+  \resumeItemListStart
+    \resumeItem{NASA Robotics Alliance Project Medal of Excellence}
+  \resumeItemListEnd
 
 
-
-%
-%-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
- \end{itemize}
+  \resumeItemListStart
+    \resumeItem{\textbf{Programming languages:} C, C++, OCaml, Python, MATLAB, Java, Javascript, HTML/CSS}
+  \resumeItemListEnd
 
 
 %-------------------------------------------
